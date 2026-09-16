@@ -1,0 +1,27 @@
+# ROS 2 / colcon outputs
+build/
+install/
+log/
+
+# Pixi environment
+.pixi/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Training outputs and large model artifacts
+datasets/
+runs/
+*.pt
+*.onnx
+
+# Editor and operating-system files
+.idea/
+.DS_Store
